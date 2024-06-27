@@ -23,7 +23,6 @@
       object-fit: cover;
       border-radius: 128px;
     }
-
     .thumbnail {
       width: 48px;
       height: 48px;
@@ -32,6 +31,9 @@
     }
     .item {
     background-color: rgba(68, 186, 255, 0.367);
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
     }
     .main-container {
     max-width: 640px;
@@ -39,32 +41,19 @@
     }
     .image-row {
     margin-bottom: 20px;
+    text-align: center;
     }
-
     .name-row {
     margin-bottom: 30px;
+    text-align: center;
     }
-
     .social-icons-row {
-    margin-bottom: 30px;
-    }
-    .item {
-    margin-bottom: 20px;
-    }
-    .image-row {
-    margin-bottom: 20px;
-    text-align: center;
-    }
-
-    .name-row {
-    margin-bottom: 30px;
-    text-align: center;
-    }
-
-    social-icons-row {
     margin-bottom: 30px;
     display: flex;
     justify-content: space-around;
+    }
+    .link-text {
+    text-align: center;
     }
   </style>
   </head>
@@ -97,7 +86,7 @@
           <div class="item">
             <img src="/Images/Plane_window.jpg" alt="Plane window with a view of the sunrise" class="thumbnail">
     
-            <a target="_blank" href="https://www.mapchart.net/world.html">
+            <a class="link-text" target="_blank" href="https://www.mapchart.net/world.html">
               Travel
             </a>
           </div>
@@ -105,7 +94,7 @@
           <div class="item">
             <img src="/Images/Art.jpg" alt= "sign that says life is beautiful in pink" class="thumbnail">
     
-            <a target="_blank" href="https://www.artic.edu/">
+            <a class="link-text" target="_blank" href="https://www.artic.edu/">
               Art
             </a>
           </div>
